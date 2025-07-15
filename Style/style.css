@@ -58,3 +58,48 @@ h1{
 .action-text{
     width: 50;
 }
+.stats-section {
+  background-color: white;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.stats-box {
+  background-color: #f2f4ff; /* light purple */
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+.stats-box h2 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stat {
+  margin: 10px 20px;
+}
+
+.stat-number {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4a55ff;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
